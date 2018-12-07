@@ -22,6 +22,10 @@ A project related to how to configure a terraform `random_pet` provider
 
 - You are now ready to proceed with the execution itself by `terraform apply` and get you new infrastructure.
 
-  > NOTE: The command will require an execution confirmation either with `yes` or `no`.                  
+  > NOTE: The command will require an execution confirmation either with `yes` or `no`.   
+  
+- After the entire process execution you will notice at the bottom of the screen an output similar to below one:
+
+  ```random_pet.server: Creation complete after 0s (ID: sound-quagga)```
    
 - After you finish, you can destroy your currect infrastructure by `terraform destroy`
